@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llQuoteWrapper"
+    android:orientation="vertical"
+    android:background="@drawable/bg_border_shadow_white"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="3"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We May Encounter Many Defeats But We Must Not Be Defeated." />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maya Angelou"
+        android:gravity="end"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic" />
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name='RecyclerView Item Click Listener'
+include ':app'

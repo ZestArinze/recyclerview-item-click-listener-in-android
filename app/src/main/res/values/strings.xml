@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerView Item Click Listener</string>
+    <string name="text_awesome_quotes">Awesome Quotes</string>
+</resources>
