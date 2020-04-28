@@ -16,7 +16,7 @@ public class DataSource {
 
         quoteList.add(new Quote(
                 "The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty",
-                "author"
+                "Winston Churchill"
         ));
 
         quoteList.add(new Quote(
